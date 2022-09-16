@@ -3,7 +3,7 @@ body{
 }
 .box{
     position: absolute;
-    top: 20%;
+    top: 30%;
     border: 2px solid black;
     margin-left: 35vw;
     background-color: black;
@@ -82,7 +82,7 @@ body{
     font-weight: 400;
 }
 #quote{
-    width: 35%; 
+    width: 200px; 
     color: aquamarine; 
     font-size: larger;
     margin-left: 35%;
