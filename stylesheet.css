@@ -81,7 +81,10 @@ body{
     color: white;
     font-weight: 400;
 }
-#foot{
-    color: white;
-    font-weight: 400;
+#quote{
+    width: 35%; 
+    color: aquamarine; 
+    font-size: larger;
+    margin-left: 35%;
+    margin-top: 55px;
 }
