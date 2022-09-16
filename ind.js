@@ -174,20 +174,19 @@ butt63.addEventListener("click",()=>{
         let number0;
         let number;
         let op;
-        // let int= new Integer();
         try{
-        //  number0=Integer(number1.innerHTML.toString);
-        //  number=Integer(number2.innerHTML.toString);
         number=parseFloat(String(number1.innerText));
          number0=parseFloat(String(number2.innerText));
          op= String(operation.innerText);;
-         console.log()
+        //  console.log()
         }catch(err){
              number1.innerHTML="Invalid Input";  
              number2.innerHTML="Invalid Input";  
         }
-        if(op=='*')
-        operation.innerText=number*number0;
+        if(op=='*'){
+        number2.innerText=number*number0;
+        // console.log(number," ",number0," = ",number*number0);
+}
         else if(op=='+')
         number2.innerText=number0+number;
         else if(op=='-')
