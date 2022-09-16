@@ -1,9 +1,12 @@
+body{
+    background-color: grey;
+}
 .box{
     position: absolute;
     top: 20%;
     border: 2px solid black;
     margin-left: 35vw;
-    background-color: rgb(99, 94, 94);
+    background-color: black;
 }
 #row1{
     margin-top: 4px;
@@ -65,5 +68,20 @@
 }
 #btn23{
     color: red;
+    font-weight: 400;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: brown;
+}
+#footer1{
+    font-family: cursive;
+    color: white;
+    font-weight: 400;
+}
+#foot{
+    color: white;
     font-weight: 400;
 }
